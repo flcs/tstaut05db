@@ -1,0 +1,37 @@
+{
+	"separacao": [
+		{ "id": 1, "nota_fiscal": 2, "separador": "João", "dthr_inicio": "2022/04/01 08:02:15", "estoque": 1, "dthr_termino": "2022/04/01 08:03:00", "conferente": "Pedro", "dthr_conf": "2022/04/01 08:03:10", "dthr_term": "2022/04/01 08:03:10", "estado": "separado"  },
+		{ "id": 2, "nota_fiscal": 5, "separador": "João", "dthr_inicio": "2022/04/01 08:03:15", "estoque": 1, "dthr_termino": "2022/04/01 08:04:00", "conferente": "Pedro", "dthr_conf": "2022/04/01 08:03:10", "dthr_term": "2022/04/01 08:03:10", "estado": "conferido"  },
+		{ "id": 3, "nota_fiscal": 4, "separador": "João", "dthr_inicio": "2022/04/01 08:05:15", "estoque": 1, "dthr_termino": "2022/04/01 08:05:20", "conferente": "Pedro", "dthr_conf": "2022/04/01 08:03:10", "dthr_term": "2022/04/01 08:03:10", "estado": "cancelado"  },
+		{ "id": 4, "nota_fiscal": 1, "separador": "João", "dthr_inicio": "2022/04/01 08:07:15", "estoque": 1, "dthr_termino": "",                    "conferente": "",      "dthr_conf": "",                    "dthr_term": "",                    "estado": "andamento"  },
+		{ "id": 5, "nota_fiscal": 3, "separador": "",     "dthr_inicio": "",                    "estoque": 1, "dthr_termino": "",                    "conferente": "",      "dthr_conf": "",                    "dthr_term": "",                    "estado": "esperando"  }
+	],
+	"separacao_produtos": [
+		{ "id": 1, "separacao": 1, "produto": 1, "quant": 1, "cod_barras": "78913414214", "endereco": "AR01D02P3A4" },
+		{ "id": 2, "separacao": 1, "produto": 2, "quant": 10, "cod_barras": "78242424314", "endereco": "AR01D02P3A5" },
+		{ "id": 3, "separacao": 2, "produto": 1, "quant": 1, "cod_barras": "78913414214", "endereco": "AR01D02P3A4" }
+	], 
+	"conferencia_produtos": [
+		{ "id": 1, "separacao": 1, "produto": 1, "quant": 1, "cod_barras": "78913414214", "endereco": "AR01D02P3A4" },
+		{ "id": 2, "separacao": 1, "produto": 2, "quant": 10, "cod_barras": "78242424314", "endereco": "AR01D02P3A5" },
+		{ "id": 3, "separacao": 2, "produto": 1, "quant": 1, "cod_barras": "78913414214", "endereco": "AR01D02P3A4" }
+	],
+	"fornecedor_entrega": [
+		{ "id": 1, "fornecedor": 1, "nota_compra": "2022/342424", "dthr_chegada": "2022/04/01 10:00:00", "estado": "aguardando" },
+		{ "id": 2, "fornecedor": 2, "nota_compra": "2022/5433", "dthr_chegada": "2022/04/01 10:00:00", "estado": "conferindo" },
+		{ "id": 3, "fornecedor": 1, "nota_compra": "2022/342425", "dthr_chegada": "2022/04/01 10:00:00", "estado": "aceita" },
+		{ "id": 4, "fornecedor": 1, "nota_compra": "2022/342426", "dthr_chegada": "2022/04/01 10:00:00", "estado": "devolvida" }
+	],
+	"chegada_produtos": [
+		{ "id": 1, "fornecedor_entrega": 1, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 1, "quantidade": 10, "cod_bar": "78913414214" },
+		{ "id": 2, "fornecedor_entrega": 2, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 2, "quantidade": 1,  "cod_bar": "78242424314" },
+		{ "id": 3, "fornecedor_entrega": 1, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 1, "quantidade": 10, "cod_bar": "78913414214" },
+		{ "id": 4, "fornecedor_entrega": 3, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 1, "quantidade": 10, "cod_bar": "78913414214" },
+		{ "id": 5, "fornecedor_entrega": 4, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 1, "quantidade": 10, "cod_bar": "78913414214" }
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+

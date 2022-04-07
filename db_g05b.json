@@ -1,0 +1,32 @@
+{
+	"devolucao": [
+		{ "id": 1, "dthr_dev": "2022/04/01 10:05:00", "nota_fiscal": 1, "funcionario": 1, "produto": 1, "qtd_recebida": 5, "retorna_estoque": 5, "obs": "5 ok", "estado": "aceita" },
+		{ "id": 2, "dthr_dev": "2022/04/01 10:05:00", "nota_fiscal": 1, "funcionario": 1, "produto": 2, "qtd_recebida": 5, "retorna_estoque": 3, "obs": "3 ok, 2 ruim", "estado": "aceita" },
+		{ "id": 2, "dthr_dev": "2022/04/01 10:05:00", "nota_fiscal": 2, "funcionario": 1, "produto": 2, "qtd_recebida": 3, "retorna_estoque": 0, "obs": "3 ok", "estado": "rejeitada" }
+	],
+	"defeituosos": [
+		{ "id": 1, "produto": 3, "data": "2022/04/01", "obs": "encontrado defeito na repinboca" },
+		{ "id": 2, "produto": 1, "data": "2022/04/01", "obs": "encontrado defeito na parafuseta" },
+		{ "id": 3, "produto": 1, "data": "2022/04/01", "obs": "encontrado defeito na repinboca" }
+	], 
+	"troca": [
+		{ "id": 1, "nota_fiscal": 3, "dthr_solicitacao": "2022/04/01 10:10:05", "obs": "cliente recebeu errado", "estado": "aceito" },
+		{ "id": 2, "nota_fiscal": 3, "dthr_solicitacao": "2022/04/01 10:10:05", "estado": "solicitado" },
+		{ "id": 3, "nota_fiscal": 1, "dthr_solicitacao": "2022/04/01 10:10:05", "estado": "rejeitado" },
+		{ "id": 4, "nota_fiscal": 2, "dthr_solicitacao": "2022/04/01 10:10:05", "estado": "cancelado" }
+	],
+	"troca_produtos": [
+		{ "id": 1, "troca": 1, "produto_volta": 1, "quant_volta": 1, "produto_sai": 2, "quant_sai": 2 },
+		{ "id": 2, "troca": 1, "produto_volta": 1, "quant_volta": 1, "produto_sai": 2, "quant_sai": 2 },
+		{ "id": 3, "troca": 1, "produto_volta": 1, "quant_volta": 1, "produto_sai": 2, "quant_sai": 2 },
+		{ "id": 4, "troca": 2, "produto_volta": 1, "quant_volta": 1, "produto_sai": 2, "quant_sai": 2 },
+		{ "id": 5, "troca": 2, "produto_volta": 1, "quant_volta": 1, "produto_sai": 2, "quant_sai": 2 }
+	],
+	"sobrando": [
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+
