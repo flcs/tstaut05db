@@ -12,9 +12,9 @@
 		{ "id": 3, "separacao": 2, "produto": 1, "quant": 1, "cod_barras": "78913414214", "endereco": "AR01D02P3A4" }
 	], 
 	"conferencia_produtos": [
-		{ "id": 1, "separacao": 1, "produto": 1, "quant": 1, "cod_barras": "78913414214", "endereco": "AR01D02P3A4" },
-		{ "id": 2, "separacao": 1, "produto": 2, "quant": 10, "cod_barras": "78242424314", "endereco": "AR01D02P3A5" },
-		{ "id": 3, "separacao": 2, "produto": 1, "quant": 1, "cod_barras": "78913414214", "endereco": "AR01D02P3A4" }
+		{ "id": 1, "separacao": 1, "produto": 1, "quant": 1, "cod_barras": "78913414214", "peso": 0.10 },
+		{ "id": 2, "separacao": 1, "produto": 2, "quant": 10, "cod_barras": "78242424314", "peso": 0.20 },
+		{ "id": 3, "separacao": 2, "produto": 1, "quant": 1, "cod_barras": "78913414214", "peso": 0.30 }
 	],
 	"fornecedor_entrega": [
 		{ "id": 1, "fornecedor": 1, "nota_compra": "2022/342424", "dthr_chegada": "2022/04/01 10:00:00", "estado": "aguardando" },
