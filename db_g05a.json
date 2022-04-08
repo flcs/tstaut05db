@@ -28,10 +28,7 @@
 		{ "id": 3, "fornecedor_entrega": 1, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 1, "quantidade": 10, "cod_bar": "78913414214" },
 		{ "id": 4, "fornecedor_entrega": 3, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 1, "quantidade": 10, "cod_bar": "78913414214" },
 		{ "id": 5, "fornecedor_entrega": 4, "dthr_conferencia": "2022/04/01 10:05:01", "estoquista": 1, "produto": 1, "quantidade": 10, "cod_bar": "78913414214" }
-	],
-	"profile": {
-	    "name": "typicode"
-	}
+	]
 }
 
 
